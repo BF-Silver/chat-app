@@ -1,3 +1,94 @@
+1.使用している主な技術
+--フロントエンドフレームワーク Node.js, React
+<img src="https://img.shields.io/badge/-Node.js-000000.svg?logo=node.js&style=for-the-badge">
+<img src="https://img.shields.io/badge/-React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+--フロントエンド言語 Typescript
+--バックエンドフレームワーク
+--バックエンド言語
+--ミドルウェア Firebase
+--インフラ
+--その他
+
+2.プロジェクトの概要
+プロジェクト名：問い合わせホーム
+プロジェクト概要：問い合わせのためのチャット機能
+プロジェクトの詳細リンク：https://chat-app-b2c5d.web.app
+
+3.必要な環境変数やコマンド一覧
+yarn run dev : localhost起動コマンド
+
+4.ディレクトリ構成
+.
+├── .firebase
+│   └── hosting.YnVpbGQ.cache
+├── .public
+    └──
+        ├── cat.png
+        ├── favicon.ico
+        ├── icon.png
+        ├── index.html
+        ├── logo192.png
+        ├── logo512.png
+        ├── logobird.png
+        ├── logofirst.png
+        ├── manifest.json
+        └── robots.txt
+├── .public
+    └──
+        ├── app
+        │   ├── hooks.ts
+        │   └── store.ts
+        ├── components
+        │   ├── chat
+        │   │   ├── Chat.scss
+        │   │   ├── Chat.tsx
+        │   │   ├── ChatHeader.scss
+        │   │   ├── ChatHeader.tsx
+        │   │   ├── ChatMessage.scss
+        │   │   └── ChatMessage.tsx
+        │   ├── login
+        │   │   ├── Login.scss
+        │   │   └── Login.tsx
+        │   └── sidebar
+        │       ├── Sidebar.scss
+        │       ├── Sidebar.tsx
+        │       ├── SidebarChannel.scss
+        │       └── SidebarChannel.tsx
+        ├── features
+        │   ├── channelSlice.ts
+        │   └── userSlice.ts
+        ├── hooks
+        │   ├── useCollection.tsx
+        │   └── useSubCollection.tsx
+        ├── utils
+        │   └── ErrorFallBack.tsx
+        ├── App.scss
+        ├── App.tsx
+        ├── firebase.ts
+        ├── index.scss
+        ├── index.tsx
+        ├── react-app-env.d.ts
+        └── Types.ts
+├── .gitignore
+├── Makefile
+├── README.md
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── .firebaserc
+
+5.開発環境の構築方法
+Dockerは今回不使用のため記載なし
+
+6.トラブルシューティング
+Dockerは今回不使用のため記載なし
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +135,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+# chat-app
